@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "category_name": "development_appliccatif",
+      "id": 1,
+      "category_title": "Development appliccatif"
+    },
+    {
+      "category_name": "maintenance_reseau",
+      "id": 2,
+      "category_title": "Maintenance reseau "
+    },
+    {
+      "category_name": "development_web",
+      "id": 3,
+      "category_title": "Development web"
+    }
+  ]
+}
