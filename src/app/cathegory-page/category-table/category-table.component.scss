@@ -1,0 +1,37 @@
+@use 'sass:map';
+@use '@angular/material' as mat;
+@include mat.core();
+@import "src/custom-theme";
+$color-config:    mat.get-color-config($portefolio-theme);
+$primary-palette: map.get($color-config, 'primary');
+$accent-palette:  map.get($color-config, 'accent');
+$warn-palette:    map.get($color-config, 'warn');
+$is-dark-theme:   map.get($color-config, 'is-dark');
+
+
+div{
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+}
+.accent{
+  color: map.get($accent-palette,500);
+  font-size: large;
+  padding: 0.2vw;
+}
+.warn{
+  color: map.get($warn-palette,500);
+  font-size: large;
+  padding: 0.2vw;
+}
+.center{
+  text-align: center;
+}
+.clickable:hover{
+  cursor: pointer;
+  background-color: #454444;
+}
+.clickable:active
+{ background-color: #333333; }
+
+

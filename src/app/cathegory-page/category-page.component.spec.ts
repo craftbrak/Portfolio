@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DetailTableLineComponent } from './detail-table-line.component';
+import { CategoryPageComponent } from './category-page.component';
 
-describe('DetailTableLineComponent', () => {
-  let component: DetailTableLineComponent;
-  let fixture: ComponentFixture<DetailTableLineComponent>;
+describe('CathegoryPageComponent', () => {
+  let component: CategoryPageComponent;
+  let fixture: ComponentFixture<CategoryPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DetailTableLineComponent ]
+      declarations: [ CategoryPageComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DetailTableLineComponent);
+    fixture = TestBed.createComponent(CategoryPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

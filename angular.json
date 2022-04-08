@@ -100,9 +100,20 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.sass"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "portefolio:build:production",
+            "firebaseProject": "portefolio-72a74",
+            "firebaseHostingSite": "portefolio-72a74"
           }
         }
       }

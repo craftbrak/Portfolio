@@ -1,0 +1,25 @@
+<div class="container  ">
+  <h1 class="card-body center">Details de la categorie</h1>
+  <div class="mat-table container-fluid rounded-3">
+    <div class="row border-bottom">
+      <div class="col center border-end accent" >Category</div>
+      <div class="col center border-end accent" >Real time</div>
+      <div class="col center accent" >Details</div>
+    </div>
+    <div class="row clickable border-bottom" *ngFor="let line of categoryLines" (click)="showDetailsOfLine(line)">
+      <div class="col border-end" >{{line.title}}</div>
+      <div class="col center border-end" >{{line.real_time}}</div>
+      <div class="col center" >
+        <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="showDetailsOfLine(line)">
+          <mat-icon>open_in_new</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col border-end" >
+      </div>
+      <div class="col warn center" >{{displayedTotals[1]}}</div>
+      <div class="col border-end" ></div>
+    </div>
+  </div>
+</div>
