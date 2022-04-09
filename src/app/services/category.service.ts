@@ -21,7 +21,7 @@ export class CategoryService {
   }
   getCatLine(cat: Category): Line | undefined{
     const ls= this.getCatLines(cat)
-    let line = new Line(cat,'','',[],)
+    let line = new Line(cat,'',[''],[],)
     ls!.forEach(l =>{
       line.real_time += l.real_time
     })

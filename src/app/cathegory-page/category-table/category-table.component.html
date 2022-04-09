@@ -6,11 +6,11 @@
       <div class="col center border-end accent" >Real time</div>
       <div class="col center accent" >Details</div>
     </div>
-    <div class="row clickable border-bottom" *ngFor="let line of categoryLines" (click)="showDetailsOfLine(line)">
+    <div class="row clickable border-bottom" *ngFor="let line of categoryLines" (click)="openDialog(line)">
       <div class="col border-end" >{{line.title}}</div>
       <div class="col center border-end" >{{line.real_time}}</div>
       <div class="col center" >
-        <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="showDetailsOfLine(line)">
+        <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="openDialog(line)">
           <mat-icon>open_in_new</mat-icon>
         </button>
       </div>

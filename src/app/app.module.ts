@@ -16,6 +16,9 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { AngularFireModule } from "@angular/fire/compat";
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { DetailDialogComponent } from './cathegory-page/detail-dialog/detail-dialog.component';
+import {MAT_DIALOG_DEFAULT_OPTIONS} from "@angular/material/dialog";
+import {MatDialogModule} from "@angular/material/dialog";
 
 @NgModule({
   declarations: [
@@ -26,6 +29,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     CategoryPageComponent,
     CategoryTableComponent,
     NavBarComponent,
+    DetailDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,11 +38,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     MatTableModule,
     MatButtonModule,
     MatIconModule,
+    MatDialogModule,
     AngularFireModule.initializeApp(environment.firebase),
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideFirestore(() => getFirestore())
   ],
-  providers: [],
+  providers: [{provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: false}}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

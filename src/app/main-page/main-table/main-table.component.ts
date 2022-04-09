@@ -3,7 +3,6 @@ import {Line} from "../../model/Line";
 import {Category} from "../../model/Category";
 import {Router} from "@angular/router";
 import {CategoryService} from "../../services/category.service";
-
 interface totals {
   real_time: number,
   value_time: number,
@@ -32,4 +31,6 @@ export class MainTableComponent implements OnInit {
   showDetailsOfCategory(category: Category) {
     this.router.navigate(['portfolio',category.id]).then();
   }
+
+
 }

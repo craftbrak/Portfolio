@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="row">
+    <button mat-icon-button (click)="closeDialog()">
+      <mat-icon>close</mat-icon>
+    </button>
+    <div class="center">
+      <h2 mat-dialog-title> {{data.title}}</h2>
+    </div>
+  </div>
+  <div mat-dialog-content class="container">
+
+   <div class="container">
+     <p *ngFor="let i of data.detail">
+     {{i}}
+   </p>
+   </div>
+   <div class="row" *ngFor="let poof of data.proofs">
+     <img class="center" src="assets/{{poof}}" alt="poof of the line">
+   </div>
+  </div>
+</div>
