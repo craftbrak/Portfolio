@@ -15,6 +15,7 @@ import { environment } from '../environments/environment';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { AngularFireModule } from "@angular/fire/compat";
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { AngularFireModule } from "@angular/fire/compat";
     TypeSafeMatCellDef,
     CategoryPageComponent,
     CategoryTableComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,

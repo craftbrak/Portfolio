@@ -7,6 +7,7 @@ export class Line {
               public proofs: string[],
               public real_time: number = 0,
               public valued_time:number=0,
+              //TODO: ADD dates
   ) {
   }
 }

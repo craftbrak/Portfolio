@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
-import categoriesJson from '../../../assets/categories.json'
-import linesJson from '../../../assets/lines.json'
 import {Line} from "../../model/Line";
 import {Category} from "../../model/Category";
+import {CategoryService} from "../../services/category.service";
 
+interface totals {
+  real_time: number,
+  value_time: number,
+}
 @Component({
   selector: 'app-category-table',
   templateUrl: './category-table.component.html',
@@ -12,25 +15,15 @@ import {Category} from "../../model/Category";
 })
 export class CategoryTableComponent implements OnInit {
   category_id : string =''
-  private categoryCollection = categoriesJson.categories;
   category : Category
-  lines= linesJson.lines;
   categoryLines : Line[] = []
-  displayedColumns: string[] = ['category', 'real_time','details'];
-  displayedTotals: number[] = [0,0];
-  constructor(private route: ActivatedRoute) {
+  displayedTotals: totals= {real_time : 0 ,value_time: 0};
+  constructor(private route: ActivatedRoute , private catService : CategoryService) {
     this.route.params.subscribe(params => this.category_id = params['category_id'])
-    // @ts-ignore
-    this.category = this.categoryCollection.find(cat => cat.id = this.category_id)
-    this.lines=this.lines.filter(line=> line.category_id == this.category.id)
-    this.lines.forEach(line=>{
-        this.categoryLines.push(new Line(this.category,line.title,line.details,line.proofs,line.real_time))
-    })
-    this.categoryLines.forEach(line=>{
-      this.displayedTotals[1] += line.real_time
-    })
-    if (this.displayedTotals[1]>= 10) this.displayedTotals[0] = 10
-    else this.displayedTotals[0] = this.displayedTotals[1]
+    this.category =this.catService.getCategory(this.category_id)!
+    this.categoryLines = this.catService.getCatLines(this.category)!
+    this.categoryLines.forEach(line=>{ this.displayedTotals.real_time += line.real_time })
+    this.displayedTotals.value_time =  this.displayedTotals.real_time>= 10 ? this.displayedTotals.value_time = 10 : this.displayedTotals.real_time
   }
 
   ngOnInit(): void {
@@ -39,6 +32,6 @@ export class CategoryTableComponent implements OnInit {
 
 
   showDetailsOfLine(Line: Line) {
-
+    console.log(Line)
   }
 }

@@ -1,33 +1,29 @@
 <!--TODO change  to html bootstrap-->
-<table mat-table [dataSource]="categoryLines"  class="mat-elevation-z8">
 
-  <!-- Category Column -->
-  <ng-container matColumnDef="category">
-    <th mat-header-cell *matHeaderCellDef> Category </th>
-    <td mat-cell *matCellDefSafe="let line ; dataSource:categoryLines"><span (click)="showDetailsOfCategory(line.category)">{{line.category.category_title}} </span></td>
-  </ng-container>
-
-  <!-- Real time Column -->
-  <ng-container matColumnDef="real_time">
-    <th mat-header-cell *matHeaderCellDef> Real time </th>
-    <td mat-cell *matCellDefSafe="let line ; dataSource:categoryLines"> {{line.real_time}} </td>
-  </ng-container>
-
-  <!-- Valued time Column -->
-  <ng-container matColumnDef="valued_time" class="mat-accent">
-    <th mat-header-cell *matHeaderCellDef> Valued time </th>
-    <td mat-cell *matCellDefSafe="let line ; dataSource:categoryLines" > <span (click)="showDetailsOfCategory(line.category)" >{{line.valued_time}}</span> </td>
-  </ng-container>
-
-  <ng-container matColumnDef="details" class="mat-accent">
-    <th mat-header-cell *matHeaderCellDef> Details</th>
-    <td mat-cell *matCellDefSafe="let line; dataSource:categoryLines">
-      <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="showDetailsOfCategory(line.category)">
-        <mat-icon>open_in_new</mat-icon>
-      </button>
-    </td>
-  </ng-container>
-
-  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-</table>
+<div class="container  ">
+  <h1 class="card-body center">Mon portfolio</h1>
+  <div class="mat-table container-fluid rounded-3">
+    <div class="row border-bottom">
+      <div class="col center border-end accent" >Category</div>
+      <div class="col center border-end accent" >Real time</div>
+      <div class="col center border-end accent" >valued time</div>
+      <div class="col center accent" >Details</div>
+    </div>
+    <div class="row clickable border-bottom" *ngFor="let line of categoryLines" (click)="showDetailsOfCategory(line.category)">
+      <div class="col border-end" >{{line.category.category_title}}</div>
+      <div class="col center border-end" >{{line.real_time}}</div>
+      <div class="col center border-end" >{{line.valued_time}}</div>
+      <div class="col center" >
+        <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="showDetailsOfCategory(line.category)">
+          <mat-icon>open_in_new</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col border-end" ></div>
+      <div class="col border-end warn center" >{{displayedTotals.real_time}}</div>
+      <div class="col border-end warn center" >{{displayedTotals.value_time}}</div>
+      <div class="col " ></div>
+    </div>
+  </div>
+</div>
