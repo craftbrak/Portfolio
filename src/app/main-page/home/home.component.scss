@@ -1,0 +1,23 @@
+@use 'sass:map';
+@use '@angular/material' as mat;
+@include mat.core();
+@import "src/custom-theme";
+$color-config:    mat.get-color-config($portefolio-theme);
+$primary-palette: map.get($color-config, 'primary');
+$accent-palette:  map.get($color-config, 'accent');
+$warn-palette:    map.get($color-config, 'warn');
+$is-dark-theme:   map.get($color-config, 'is-dark');
+
+.language-logo{
+  max-width: 55%;
+  height: 55%;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #4527a0;
+  border-radius: .3rem;
+}
+section{
+  margin-bottom: 3vw;
+}

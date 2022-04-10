@@ -17,5 +17,11 @@
    <div class="row" *ngFor="let poof of data.proofs">
      <img class="center" src="assets/{{poof}}" alt="poof of the line">
    </div>
+    <div class="row">
+          <button mat-raised-button color="accent" style="width: 40%; margin: auto" (click)="closeDialog()">
+            close
+          </button>
+    </div>
+
   </div>
 </div>

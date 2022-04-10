@@ -19,6 +19,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { DetailDialogComponent } from './cathegory-page/detail-dialog/detail-dialog.component';
 import {MAT_DIALOG_DEFAULT_OPTIONS} from "@angular/material/dialog";
 import {MatDialogModule} from "@angular/material/dialog";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import {MatDialogModule} from "@angular/material/dialog";
     CategoryTableComponent,
     NavBarComponent,
     DetailDialogComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
