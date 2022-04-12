@@ -13,7 +13,7 @@ export class CategoryService {
     this.cats = categoriesJson.categories
     linesJson.lines.forEach(line=>{
       const cat= this.getCategory(line.category_id)
-      if (cat) this.lines.push(new Line(cat,line.title,line.details,line.proofs,line.real_time))
+      if (cat) this.lines.push(new Line(cat,line.title,line.details,line.proofs,line.real_time,0,line.debut_date))
     })
   }
   getCategories():Category[]{
@@ -21,7 +21,7 @@ export class CategoryService {
   }
   getCatLine(cat: Category): Line | undefined{
     const ls= this.getCatLines(cat)
-    let line = new Line(cat,'',[''],[],)
+    let line = new Line(cat,'',[''],[])
     ls!.forEach(l =>{
       line.real_time += l.real_time
     })

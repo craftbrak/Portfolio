@@ -26,10 +26,11 @@ div{
 }
 .center{
   text-align: center;
+  vertical-align: central;
 }
 .clickable:hover{
   cursor: pointer;
-  background-color: #454444;
+  background-color: #554444;
 }
 .clickable:active
 { background-color: #333333; }

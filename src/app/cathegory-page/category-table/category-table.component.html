@@ -1,25 +1,37 @@
 <div class="container  ">
-  <h1 class="card-body center">Details de la categorie</h1>
-  <div class="mat-table container-fluid rounded-3">
-    <div class="row border-bottom">
-      <div class="col center border-end accent" >Category</div>
-      <div class="col center border-end accent" >Real time</div>
-      <div class="col center accent" >Details</div>
-    </div>
-    <div class="row clickable border-bottom" *ngFor="let line of categoryLines" (click)="openDialog(line)">
-      <div class="col border-end" >{{line.title}}</div>
-      <div class="col center border-end" >{{line.real_time}}</div>
-      <div class="col center" >
-        <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="openDialog(line)">
-          <mat-icon>open_in_new</mat-icon>
-        </button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col border-end" >
-      </div>
-      <div class="col warn center" >{{displayedTotals.real_time}}</div>
-      <div class="col border-end" ></div>
-    </div>
+  <h1 class="card-body center mt-5">Details de la categorie</h1>
+  <div class="container rounded-3 mb-5">
+    <table  class="table table-sm table-responsive " style="background: #444444; color: white; border-radius: 0.5vh">
+      <thead >
+      <tr>
+        <th class="center accent" scope="col">Titre</th>
+        <th class="center accent" scope="col">Temps reel</th>
+        <th class="center accent" scope="col">Date</th>
+        <th class="center accent" scope="col">Details</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let line of categoryLines" (click)="openDialog(line)" class="clickable">
+        <th class="center" scope="row">{{line.title}}</th>
+        <td class="center">{{line.real_time}}</td>
+        <td class="center">{{line.debutDate}}</td>
+        <td class="center">
+          <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="openDialog(line)">
+            <mat-icon>open_in_new</mat-icon>
+          </button>
+        </td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr class="border-bottom-0">
+        <th class="center border-bottom-0">{{displayedTotals.value_time}}</th>
+        <th class="center warn border-bottom-0">{{displayedTotals.real_time}}</th>
+        <th class="border-bottom-0"></th>
+        <th class="border-bottom-0"></th>
+      </tr>
+      </tfoot>
+    </table>
   </div>
+
 </div>
+
