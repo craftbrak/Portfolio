@@ -4,19 +4,19 @@
     <table  class="table table-sm table-responsive " style="background: #444444; color: white; border-radius: 0.5vh">
       <thead >
       <tr>
-        <th class="center accent" scope="col">Titre</th>
-        <th class="center accent" scope="col">Temps reel</th>
-        <th class="center accent" scope="col">Date</th>
-        <th class="center accent" scope="col">Details</th>
+        <th class="center accent-text" scope="col">Titre</th>
+        <th class="center accent-text" scope="col">Temps reel</th>
+        <th class="center accent-text" scope="col">Date</th>
+        <th class="center accent-text" scope="col">Details</th>
       </tr>
       </thead>
       <tbody>
       <tr *ngFor="let line of categoryLines" (click)="openDialog(line)" class="clickable">
-        <th class="center" scope="row">{{line.title}}</th>
-        <td class="center">{{line.real_time}}</td>
-        <td class="center">{{line.debutDate}}</td>
-        <td class="center">
-          <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="openDialog(line)">
+        <th class="center border-secondary" scope="row">{{line.title}}</th>
+        <td class="center border-secondary">{{line.real_time}}</td>
+        <td class="center border-secondary">{{line.debutDate}}</td>
+        <td class="center border-secondary">
+          <button mat-icon-button color="null" class="accent-text" aria-label="Example icon button with a menu icon" (click)="openDialog(line)">
             <mat-icon>open_in_new</mat-icon>
           </button>
         </td>

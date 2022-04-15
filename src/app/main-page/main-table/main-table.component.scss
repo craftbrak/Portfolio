@@ -15,12 +15,12 @@ div{
   text-align: justify;
 }
 .accent{
-  color: map.get($accent-palette,500);
+  color: #65CF7F;
   font-size: large;
   padding: 0.2vw;
 }
 .warn{
-  color: map.get($warn-palette,500);
+  color: #B8EA67;
   font-size: large;
   padding: 0.2vw;
 }
@@ -35,3 +35,21 @@ div{
 { background-color: #333333; }
 
 
+.primary-bg{
+  background-color: #2F4858;
+}
+.secondary-bg{
+  background-color: #13697B;
+}
+.thirdary-bg{
+  background-color: #008D8F;
+}
+.fourthiary-bg{
+  background-color: #00AF90;
+}
+.accent-text{
+  color: #65CF7F;
+}
+.warning-text{
+  color: #B8EA67;
+}
