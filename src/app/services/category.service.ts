@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import categoriesJson from '../../assets/categories.json'
-import linesJson from '../../assets/lines.json'
+import categoriesJson from '../../assets/data/categories.json'
+import linesJson from '../../assets/data/lines.json'
 import {Category} from "../model/Category";
 import {Line} from "../model/Line";
 @Injectable({

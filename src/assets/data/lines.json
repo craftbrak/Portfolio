@@ -1,0 +1,76 @@
+{
+  "lines": [
+    {
+      "title": "Concevez votre site web avec PHP et MySQL",
+      "category_id":"5",
+      "real_time": 8,
+      "details": ["une formation en ligne sur le php"],
+      "proofs": ["openclassroom.png" , "php-mysql.png"],
+      "debut_date": "26/09/2018"
+    },
+    {
+      "title": "Hebergement d’un bot discord + CD pipeline",
+      "category_id":"8",
+      "real_time": 4,
+      "details": ["a la demande d’un amis j’ai mis en place un systeme de Continus delivery pour son bot discord ainssi que l’hebergment sur mon serveur"],
+      "proofs": ["valobot.png" , "cd-ci.png"],
+      "debut_date": "05/05/2020"
+    },
+    {
+      "title": "Mise en place d’un Pihole sur mon reseau local",
+      "category_id":"8",
+      "real_time": 4,
+      "details": ["Apres avoir recu un raspbery pi B3+ j’ai deside d’installer pyhole pour drastiquement diminuer la quantité de publicitée sur mon reseau local"],
+      "proofs": ["pihole.png" , "Louis_maudit_2.png"],
+      "debut_date": "16/01/2019"
+    },
+    {
+      "title": "Formation Latex",
+      "category_id":"5",
+      "real_time": 2,
+      "details": ["Formation organisée par Louvain-Li-nux il n’y a pas d’entrée et donc pas vraiment de preuve de participation ."],
+      "proofs": [],
+      "debut_date": "24/02/2022"
+    },
+    {
+      "title": "Empreinte ecologique de la 5G",
+      "category_id":"5",
+      "real_time": 2,
+      "details": ["une conference qui parle de ce qu’est la 5G et quel impacte elle aurra sur l’ecologie. organiser par CapTech"],
+      "proofs": ["5G.png"],
+      "debut_date": "25/05/2018"
+    },
+    {
+      "title": "Contruction Imprimate 3D RepRap",
+      "category_id":"6",
+      "real_time": 20,
+      "details": ["passioner par les nouvelle thecnologie je voulais m’essayer a l’impression 3D j’ai donc decider de construire ma propre imprimante"],
+      "proofs": ["rep-rap-proof.jpeg" , "signal-2022-04-14-235248_002.jpeg"],
+      "debut_date": "12/12/2019"
+    },
+    {
+      "title": "Créez des visuels avec Illustrator",
+      "category_id":"10",
+      "real_time": 10,
+      "details": ["foramtion sur adobe ilustrator pour appendre a crée des visuel en vectoriel"],
+      "proofs": ["illustrator.png" , "openclassroom.png"],
+      "debut_date": "04/02/2019"
+    },
+    {
+      "title": "Apprenez à programmer en Python",
+      "category_id":"1",
+      "real_time": 40,
+      "details": ["formation en python fait lors de ma premiere année a l’ephec (avant que le python ne face partie des cours)"],
+      "proofs": ["python.png" , "openclassroom.png"],
+      "debut_date": "07/02/2019"
+    },
+    {
+      "title": "Créez une application java avec Spring Boot",
+      "category_id":"1",
+      "real_time": 8,
+      "details": ["formation Spring en Java"],
+      "proofs": ["java.png" , "openclassroom2.png"],
+      "debut_date": "07/07/2021"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "category_name": "development_appliccatif",
+      "id": "1",
+      "category_title": "Development appliccatif"
+    },
+    {
+      "category_name": "maintenance",
+      "id": "2",
+      "category_title": "Maintenance"
+    },
+    {
+      "category_name": "development_web",
+      "id": "3",
+      "category_title": "Development web"
+    },
+    {
+      "category_name": "conference",
+      "id": "4",
+      "category_title": "Conference"
+    },
+    {
+      "category_name": "formation",
+      "id": "5",
+      "category_title": "formation"
+    },
+    {
+      "category_name": "impression_3d",
+      "id": "6",
+      "category_title": "Impression 3D"
+    },
+    {
+      "category_name": "infra_reseau",
+      "id": "7",
+      "category_title": "Infrastructure réseau"
+    },
+    {
+      "category_name": "service_reseau",
+      "id": "8",
+      "category_title": "Service réseau"
+    },
+    {
+      "category_name": "soft_skills",
+      "id": "9",
+      "category_title": "Service réseau"
+    },
+    {
+      "category_name": "2d-design",
+      "id": "10",
+      "category_title": "design 2D"
+    }
+  ]
+}
