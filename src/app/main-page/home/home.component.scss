@@ -15,9 +15,26 @@ $is-dark-theme:   map.get($color-config, 'is-dark');
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #2F4858;
   border-radius: .3rem;
 }
 section{
   margin-bottom: 3vw;
+}
+.primary-bg{
+  background-color: #2F4858;
+}
+.secondary-bg{
+  background-color: #13697B;
+}
+.thirdary-bg{
+  background-color: #008D8F;
+}
+.fourthiary-bg{
+  background-color: #00AF90;
+}
+.accent-text{
+  color: #65CF7F;
+}
+.warning-text{
+  color: #B8EA67;
 }
