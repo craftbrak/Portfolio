@@ -9,6 +9,22 @@
       "debut_date": "26/09/2018"
     },
     {
+      "title": "Apprenez à créer votre site web avec HTML5 et CSS3",
+      "category_id":"5",
+      "real_time": 20,
+      "details": ["formation en html css faite avant d’entré a l’ephec"],
+      "proofs": ["openclassroom.png" , "html.png"],
+      "debut_date": "26/09/2018"
+    },
+    {
+      "title": "Écrivez du JavaScript pour le web",
+      "category_id":"5",
+      "real_time": 12,
+      "details": ["formation en javascript css faite avant d’entré a l’ephec"],
+      "proofs": ["openclassroom.png" , "js.png"],
+      "debut_date": "30/03/2019"
+    },
+    {
       "title": "Hebergement d’un bot discord + CD pipeline",
       "category_id":"8",
       "real_time": 4,
@@ -26,7 +42,7 @@
     },
     {
       "title": "Formation Latex",
-      "category_id":"5",
+      "category_id":"4",
       "real_time": 2,
       "details": ["Formation organisée par Louvain-Li-nux il n’y a pas d’entrée et donc pas vraiment de preuve de participation ."],
       "proofs": [],
@@ -34,7 +50,7 @@
     },
     {
       "title": "Empreinte ecologique de la 5G",
-      "category_id":"5",
+      "category_id":"4",
       "real_time": 2,
       "details": ["une conference qui parle de ce qu’est la 5G et quel impacte elle aurra sur l’ecologie. organiser par CapTech"],
       "proofs": ["5G.png"],
@@ -46,6 +62,14 @@
       "real_time": 20,
       "details": ["passioner par les nouvelle thecnologie je voulais m’essayer a l’impression 3D j’ai donc decider de construire ma propre imprimante"],
       "proofs": ["rep-rap-proof.jpeg" , "signal-2022-04-14-235248_002.jpeg"],
+      "debut_date": "12/12/2019"
+    },
+    {
+      "title": "Modification et amelioration d’une Ender 3",
+      "category_id":"6",
+      "real_time": 15,
+      "details": ["apres 2 ans a imprimer avec ma RepRap je me suis offert une ender 3 a laquel j’ai fait quelque modification:\nJ’ai changer la carte mere pour une avec des driver de moteurs silentieux (achat)\nJ’ai ajouter une capteur de position de lit (achat)\nJ’ai modifier le capteur de fin de course de l’axe Z (DIY)\nJ’ai ajouter un capteur de filament (DIY)\nSwap le fimrware avec un firmware qui prend en compte les nouveau capteurs"],
+      "proofs": ["ender3.jpeg"],
       "debut_date": "12/12/2019"
     },
     {
@@ -71,6 +95,22 @@
       "details": ["formation Spring en Java"],
       "proofs": ["java.png" , "openclassroom2.png"],
       "debut_date": "07/07/2021"
+    },
+    {
+      "title": "Initiez-vous au kotlin",
+      "category_id":"1",
+      "real_time": 12,
+      "details": ["formation en kotlin"],
+      "proofs": ["kotlin.png" , "openclassroom2.png"],
+      "debut_date": "23/09/2021"
+    },
+    {
+      "title": "Des applications ultra-rapides avec Node.js ",
+      "category_id":"3",
+      "real_time": 10,
+      "details": ["formation en node js proposée par openclassroom"],
+      "proofs": ["node.png" , "openclassroom.png"],
+      "debut_date": "09/04/2020"
     }
   ]
 }

@@ -14,10 +14,10 @@
      {{i}}
    </p>
    </div>
-   <div class="row" *ngFor="let poof of data.proofs">
+   <div class="row mt-5" *ngFor="let poof of data.proofs">
      <img *ngIf="poof.length > 0" class="center" src="assets/proofs/{{poof}}" alt="poof of the line">
    </div>
-    <div class="row">
+    <div class="row mt-5">
           <button mat-raised-button color="null" class="primary-bg" style="width: 40%; margin: auto" (click)="closeDialog()">
             close
           </button>
