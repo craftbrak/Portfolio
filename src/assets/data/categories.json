@@ -3,7 +3,7 @@
     {
       "category_name": "development_appliccatif",
       "id": "1",
-      "category_title": "Development appliccatif"
+      "category_title": "Dévelopement appliccatif"
     },
     {
       "category_name": "maintenance&support_technique",
@@ -13,12 +13,12 @@
     {
       "category_name": "development_web",
       "id": "3",
-      "category_title": "Development web"
+      "category_title": "Dévelopement web"
     },
     {
       "category_name": "conference",
       "id": "4",
-      "category_title": "Conference"
+      "category_title": "Conférence"
     },
     {
       "category_name": "formation en ligne",
@@ -48,7 +48,7 @@
     {
       "category_name": "2d-design",
       "id": "10",
-      "category_title": "design 2D"
+      "category_title": "Design 2D"
     }
   ]
 }

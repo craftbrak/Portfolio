@@ -25,18 +25,18 @@
       "debut_date": "30/03/2019"
     },
     {
-      "title": "Hebergement d’un bot discord + CD pipeline",
+      "title": "Hébergement d’un bot discord + CD pipeline",
       "category_id":"8",
       "real_time": 4,
-      "details": ["a la demande d’un amis j’ai mis en place un systeme de Continus delivery pour son bot discord ainssi que l’hebergment sur mon serveur"],
+      "details": ["à la demande d’un ami j’ai mis en place un système de Continus delivery pour son bot discord ainsi que l’hébergement sur mon serveur"],
       "proofs": ["valobot.png" , "cd-ci.png"],
       "debut_date": "05/05/2020"
     },
     {
-      "title": "Mise en place d’un Pihole sur mon reseau local",
+      "title": "Mise en place d’un Pihole sur mon réseau local",
       "category_id":"8",
       "real_time": 4,
-      "details": ["Apres avoir recu un raspbery pi B3+ j’ai deside d’installer pyhole pour drastiquement diminuer la quantité de publicitée sur mon reseau local"],
+      "details": ["Apres avoir reçu un Raspberry pi B3+ j’ai décidé d’installer Pyhole pour drastiquement diminuer la quantité de publicités sur mon réseau local"],
       "proofs": ["pihole.png" , "Louis_maudit_2.png"],
       "debut_date": "16/01/2019"
     },
@@ -44,15 +44,15 @@
       "title": "Formation Latex",
       "category_id":"4",
       "real_time": 2,
-      "details": ["Formation organisée par Louvain-Li-nux il n’y a pas d’entrée et donc pas vraiment de preuve de participation ."],
+      "details": ["Formation organisée par Louvain-Li-nux sur latex qui est un outil de traitement de texte. ", "il n’y a pas d’entrée et donc pas vraiment de preuve de participation ."],
       "proofs": [],
       "debut_date": "24/02/2022"
     },
     {
-      "title": "Empreinte ecologique de la 5G",
+      "title": "Empreinte écologique de la 5G",
       "category_id":"4",
       "real_time": 2,
-      "details": ["une conference qui parle de ce qu’est la 5G et quel impacte elle aurra sur l’ecologie. organiser par CapTech"],
+      "details": ["Une conférence qui parle de ce qu’est la 5G et quel impact elle aura sur l’écologie. organisée par CapTech"],
       "proofs": ["5G.png"],
       "debut_date": "25/05/2018"
     },
@@ -60,15 +60,15 @@
       "title": "Contruction Imprimate 3D RepRap",
       "category_id":"6",
       "real_time": 20,
-      "details": ["passioner par les nouvelle thecnologie je voulais m’essayer a l’impression 3D j’ai donc decider de construire ma propre imprimante, nayant pas les moyens j'ai negocier avec DWCCL pour le finacement l'imprimante leurs appartient donc"],
+      "details": ["passioné par les nouvelles thecnologies je voulais m’essayer à l’impression 3D j’ai donc décidé de construire ma propre imprimante, n'ayant pas les moyens j'ai négocié avec DWCCL pour le financement, l'imprimante leur appartient donc"],
       "proofs": ["rep-rap-proof.jpeg" , "signal-2022-04-14-235248_002.jpeg","dwccl.png"],
       "debut_date": "12/12/2019"
     },
     {
-      "title": "Modification et amelioration d’une Ender 3",
+      "title": "Modification et amélioration d’une Ender 3",
       "category_id":"6",
       "real_time": 15,
-      "details": ["apres 2 ans a imprimer avec une RepRap DWCCL on decider de passer a une ender 3 ai m'on demander d'y apporter quelque modification quelque modification:\nJ’ai changer la carte mere pour une avec des driver de moteurs silentieux (achat)\nJ’ai ajouter une capteur de position de lit (achat)\nJ’ai modifier le capteur de fin de course de l’axe Z (DIY)\nJ’ai ajouter un capteur de filament (DIY)\nSwap le fimrware avec un firmware qui prend en compte les nouveau capteurs"],
+      "details": ["Après 2 ans à imprimer avec une RepRap DWCCL a decidé de passer à une ender 3 et m'a demandé d'y apporter quelques modifications:\nJ’ai changé la carte mère pour une avec des drivers de moteurs silencieux (achat)\nJ’ai ajouté un capteur de position de lit (achat)\nJ’ai modifié le capteur de fin de course de l’axe Z (DIY)\nJ’ai ajouté un capteur de filament (DIY)\nSwap le firmware avec un firmware qui prend en compte les nouveaux capteurs"],
       "proofs": ["ender3.jpeg", "dwccl.png"],
       "debut_date": "12/12/2019"
     },
@@ -76,7 +76,7 @@
       "title": "Créez des visuels avec Illustrator",
       "category_id":"10",
       "real_time": 10,
-      "details": ["foramtion sur adobe ilustrator pour appendre a crée des visuel en vectoriel"],
+      "details": ["formation sur Adobe Illustrator pour appendre à créer des visuels en vectoriel"],
       "proofs": ["illustrator.png" , "openclassroom.png"],
       "debut_date": "04/02/2019"
     },
@@ -84,12 +84,12 @@
       "title": "Apprenez à programmer en Python",
       "category_id":"1",
       "real_time": 40,
-      "details": ["formation en python fait lors de ma premiere année a l’ephec (avant que le python ne face partie des cours)"],
+      "details": ["formation en python faite lors de ma premiere année à l’Ephec (avant que le Python ne face partie des cours)"],
       "proofs": ["python.png" , "openclassroom.png"],
       "debut_date": "07/02/2019"
     },
     {
-      "title": "Créez une application java avec Spring Boot",
+      "title": "Créez une application Java avec Spring Boot",
       "category_id":"1",
       "real_time": 8,
       "details": ["formation Spring en Java"],
@@ -97,10 +97,10 @@
       "debut_date": "07/07/2021"
     },
     {
-      "title": "Initiez-vous au kotlin",
+      "title": "Initiez-vous au Kotlin",
       "category_id":"1",
       "real_time": 12,
-      "details": ["formation en kotlin"],
+      "details": ["formation en Kotlin"],
       "proofs": ["kotlin.png" , "openclassroom2.png"],
       "debut_date": "23/09/2021"
     },
@@ -113,26 +113,27 @@
       "debut_date": "09/04/2020"
     },
     {
-      "title": "Support technique , mise en place des bureau et montage d'ordinateur pour DWCCL ",
+      "title": "Support technique, mise en place des bureaux et montage d'ordinateurs pour DWCCL ",
       "category_id":"2",
       "real_time": 20,
-      "details": ["Support technique des infrastructure reseau de l'entreprise ( les differents site web , les email et le cloud priver)", "Montage des differents bureau du personel de l'entrepise DWCCL .", "Je suis aussi charger de maintenir a jour les different postes de travail de l'entreprise en terme software et hardware.", "Je fait tout cela benevolement depuis la creation de l'entreprise."],
+      "details": ["Support technique des infrastructures réseau de l'entreprise (les différents sites web, les e-mails et le cloud privé)",
+        "Montage des différents bureaux du personnel de l'entreprise DWCCL.", "Je suis aussi chargé de maintenir à jour les différents postes de travail de l'entreprise en terme logiciel et hardware.", "Je fait tout cela bénévolement depuis la création de l'entreprise."],
       "proofs": ["dwccl.png"],
       "debut_date": "05/05/2022"
     },
     {
-      "title": "Mise en place et securisation de reseau et des services reseaux de DWCCL ",
+      "title": "Mise en place et sécurisation de réseau et des services réseaux de DWCCL ",
       "category_id":"7",
       "real_time": 15,
-      "details": ["J'ai mis en place tout le reseau de l'entreprise . J'ai aussi configurer plusieurs service reseau heberger en local, 2 serveur web et mail , vpn , serveur de ficher , gestionaire de mot de passe , DNS addblock. "],
+      "details": ["J'ai mis en place tout le réseau de l'entreprise. J'ai aussi configuré plusieurs services réseau hebergés en local, 2 serveurs web et mail, vpn, serveur de fichers, gestionnaire de mot de passe, DNS add-block. "],
       "proofs": ["dwccl.png"],
       "debut_date": "05/05/2022"
     },
     {
-      "title": "developement du site internet infirmier jodoigne",
+      "title": "développement du site internet infirmiers Jodoigne",
       "category_id":"3",
       "real_time": 30,
-      "details": ["creation d'un site statique pour DWCCL "],
+      "details": ["création d'un site statique pour DWCCL "],
       "proofs": ["dwccl.png"],
       "debut_date": "05/05/2022"
     },
@@ -140,23 +141,23 @@
       "title": "cours de natation pour LA BESACE",
       "category_id":"9",
       "real_time": 96,
-      "details": ["J'ai donner des cours de natation a des enfant pour le compte de LA BESACE"],
+      "details": ["J'ai donné des cours de natation à des enfants pour le compte de LA BESACE"],
       "proofs": [],
       "debut_date": "05/09/2018"
     },
     {
-      "title": "cours de natation a mon compte",
+      "title": "cours de natation à mon compte",
       "category_id":"9",
       "real_time": 200,
-      "details": ["Je donne des cours de natation pour enfant a mon compte"],
+      "details": ["Je donne actuellement des cours de natation pour enfants à mon compte"],
       "proofs": [],
       "debut_date": "02/09/2020"
     },
     {
-      "title": "devolepment d'un site web avec spring pour ghoz-software",
+      "title": "développement d'un site web avec Spring pour Ghoz-software",
       "category_id":"3",
       "real_time": 200,
-      "details": ["travail etudiant cher ghoz-software.", "preuve voir cv"],
+      "details": ["travail étudiant chez Ghoz-software.", "", "preuve voir cv"],
       "proofs": [],
       "debut_date": "02/05/2021"
     }
