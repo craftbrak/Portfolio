@@ -60,16 +60,16 @@
       "title": "Contruction Imprimate 3D RepRap",
       "category_id":"6",
       "real_time": 20,
-      "details": ["passioner par les nouvelle thecnologie je voulais m’essayer a l’impression 3D j’ai donc decider de construire ma propre imprimante"],
-      "proofs": ["rep-rap-proof.jpeg" , "signal-2022-04-14-235248_002.jpeg"],
+      "details": ["passioner par les nouvelle thecnologie je voulais m’essayer a l’impression 3D j’ai donc decider de construire ma propre imprimante, nayant pas les moyens j'ai negocier avec DWCCL pour le finacement l'imprimante leurs appartient donc"],
+      "proofs": ["rep-rap-proof.jpeg" , "signal-2022-04-14-235248_002.jpeg","dwccl.png"],
       "debut_date": "12/12/2019"
     },
     {
       "title": "Modification et amelioration d’une Ender 3",
       "category_id":"6",
       "real_time": 15,
-      "details": ["apres 2 ans a imprimer avec ma RepRap je me suis offert une ender 3 a laquel j’ai fait quelque modification:\nJ’ai changer la carte mere pour une avec des driver de moteurs silentieux (achat)\nJ’ai ajouter une capteur de position de lit (achat)\nJ’ai modifier le capteur de fin de course de l’axe Z (DIY)\nJ’ai ajouter un capteur de filament (DIY)\nSwap le fimrware avec un firmware qui prend en compte les nouveau capteurs"],
-      "proofs": ["ender3.jpeg"],
+      "details": ["apres 2 ans a imprimer avec une RepRap DWCCL on decider de passer a une ender 3 ai m'on demander d'y apporter quelque modification quelque modification:\nJ’ai changer la carte mere pour une avec des driver de moteurs silentieux (achat)\nJ’ai ajouter une capteur de position de lit (achat)\nJ’ai modifier le capteur de fin de course de l’axe Z (DIY)\nJ’ai ajouter un capteur de filament (DIY)\nSwap le fimrware avec un firmware qui prend en compte les nouveau capteurs"],
+      "proofs": ["ender3.jpeg", "dwccl.png"],
       "debut_date": "12/12/2019"
     },
     {
@@ -111,6 +111,54 @@
       "details": ["formation en node js proposée par openclassroom"],
       "proofs": ["node.png" , "openclassroom.png"],
       "debut_date": "09/04/2020"
+    },
+    {
+      "title": "Support technique , mise en place des bureau et montage d'ordinateur pour DWCCL ",
+      "category_id":"2",
+      "real_time": 20,
+      "details": ["Support technique des infrastructure reseau de l'entreprise ( les differents site web , les email et le cloud priver)", "Montage des differents bureau du personel de l'entrepise DWCCL .", "Je suis aussi charger de maintenir a jour les different postes de travail de l'entreprise en terme software et hardware.", "Je fait tout cela benevolement depuis la creation de l'entreprise."],
+      "proofs": ["dwccl.png"],
+      "debut_date": "05/05/2022"
+    },
+    {
+      "title": "Mise en place et securisation de reseau et des services reseaux de DWCCL ",
+      "category_id":"7",
+      "real_time": 15,
+      "details": ["J'ai mis en place tout le reseau de l'entreprise . J'ai aussi configurer plusieurs service reseau heberger en local, 2 serveur web et mail , vpn , serveur de ficher , gestionaire de mot de passe , DNS addblock. "],
+      "proofs": ["dwccl.png"],
+      "debut_date": "05/05/2022"
+    },
+    {
+      "title": "developement du site internet infirmier jodoigne",
+      "category_id":"3",
+      "real_time": 30,
+      "details": ["creation d'un site statique pour DWCCL "],
+      "proofs": ["dwccl.png"],
+      "debut_date": "05/05/2022"
+    },
+    {
+      "title": "cours de natation pour LA BESACE",
+      "category_id":"9",
+      "real_time": 96,
+      "details": ["J'ai donner des cours de natation a des enfant pour le compte de LA BESACE"],
+      "proofs": [],
+      "debut_date": "05/09/2018"
+    },
+    {
+      "title": "cours de natation a mon compte",
+      "category_id":"9",
+      "real_time": 200,
+      "details": ["Je donne des cours de natation pour enfant a mon compte"],
+      "proofs": [],
+      "debut_date": "02/09/2020"
+    },
+    {
+      "title": "devolepment d'un site web avec spring pour ghoz-software",
+      "category_id":"3",
+      "real_time": 200,
+      "details": ["travail etudiant cher ghoz-software.", "preuve voir cv"],
+      "proofs": [],
+      "debut_date": "02/05/2021"
     }
   ]
 }
