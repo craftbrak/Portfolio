@@ -79,6 +79,15 @@
       "details": ["formation sur Adobe Illustrator pour appendre à créer des visuels en vectoriel"],
       "proofs": ["illustrator.png" , "openclassroom.png"],
       "debut_date": "04/02/2019"
+    },{
+      "title": "Création des different logo de mon pull rhéto",
+      "category_id":"10",
+      "real_time": 40,
+      "details": ["Lors de ma 6ieme secondaire j'ai eu la chance d'etre designer par ma classe pour crée notre pull rhéto.","je l'ai designer de a à z tous les graphisme sont de ma création.",
+        "Apres avoir discuter avec mes camarades de classes nous avions finalement decider que nous nous ispirerons du logo USB et que les lettre serais faite avec des block de tetris.",
+        "Tout les visuel on ete réalisé avec Adobe Illustrator en vectoriel"],
+      "proofs": ["verso-pull.jpg" , "recto-pull.jpg"],
+      "debut_date": "04/02/2019"
     },
     {
       "title": "Apprenez à programmer en Python",

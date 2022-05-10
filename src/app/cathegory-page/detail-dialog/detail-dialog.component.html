@@ -9,14 +9,17 @@
   </div>
   <div mat-dialog-content class="container">
 
-   <div class="container">
+   <div class="container center">
      <p *ngFor="let i of data.detail">
      {{i}}
    </p>
    </div>
+    <hr>
+    <h2 class="center"> les preuves </h2>
    <div class="row mt-5" *ngFor="let poof of data.proofs">
      <img *ngIf="poof.length > 0" class="center" src="assets/proofs/{{poof}}" alt="poof of the line">
    </div>
+    <hr>
     <div class="row mt-5">
           <button mat-raised-button color="null" class="primary-bg" style="width: 40%; margin: auto" (click)="closeDialog()">
             close

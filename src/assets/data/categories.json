@@ -1,9 +1,9 @@
 {
   "categories": [
     {
-      "category_name": "development_appliccatif",
+      "category_name": "development_applicatif",
       "id": "1",
-      "category_title": "Dévelopement appliccatif"
+      "category_title": "Développement applicatif"
     },
     {
       "category_name": "maintenance&support_technique",
@@ -13,17 +13,17 @@
     {
       "category_name": "development_web",
       "id": "3",
-      "category_title": "Dévelopement web"
+      "category_title": "Développement web"
     },
     {
       "category_name": "conference",
       "id": "4",
-      "category_title": "Conférence"
+      "category_title": "Conférences"
     },
     {
       "category_name": "formation en ligne",
       "id": "5",
-      "category_title": "formation"
+      "category_title": "Formations"
     },
     {
       "category_name": "impression_3d",
