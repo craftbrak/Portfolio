@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { DetailDialogComponent } from './detail-dialog.component';
 
 describe('DetailDialogComponent', () => {
@@ -8,9 +7,8 @@ describe('DetailDialogComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DetailDialogComponent ]
-    })
-    .compileComponents();
+      declarations: [DetailDialogComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
@@ -23,3 +21,4 @@ describe('DetailDialogComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

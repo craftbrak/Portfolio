@@ -1,8 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { CategoryTableComponent } from './category-table.component';
 
-describe('DetailTableComponent', () => {
+describe('CategoryTableComponent', () => {
   let component: CategoryTableComponent;
   let fixture: ComponentFixture<CategoryTableComponent>;
 
@@ -10,7 +9,7 @@ describe('DetailTableComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ CategoryTableComponent ]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
