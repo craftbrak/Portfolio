@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from "./main-page/home/home.component";
 import { MainTableComponent } from "./main-page/main-table/main-table.component";
-import { MatTableModule } from "@angular/material/table";
-import { MatButtonModule } from "@angular/material/button";
+import { MatLegacyTableModule as MatTableModule } from "@angular/material/legacy-table";
+import { MatLegacyButtonModule as MatButtonModule } from "@angular/material/legacy-button";
 import { MatIconModule } from "@angular/material/icon";
 import { TypeSafeMatCellDef } from './directive/type-safe-mat-cell-def.directive';
 import { CategoryPageComponent } from './cathegory-page/category-page.component';
@@ -17,8 +17,8 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { AngularFireModule } from "@angular/fire/compat";
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { DetailDialogComponent } from './cathegory-page/detail-dialog/detail-dialog.component';
-import {MAT_DIALOG_DEFAULT_OPTIONS} from "@angular/material/dialog";
-import {MatDialogModule} from "@angular/material/dialog";
+import {MAT_LEGACY_DIALOG_DEFAULT_OPTIONS as MAT_DIALOG_DEFAULT_OPTIONS} from "@angular/material/legacy-dialog";
+import {MatLegacyDialogModule as MatDialogModule} from "@angular/material/legacy-dialog";
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({

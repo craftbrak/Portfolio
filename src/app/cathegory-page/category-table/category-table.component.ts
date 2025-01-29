@@ -4,7 +4,7 @@ import {Line} from "../../model/Line";
 import {Category} from "../../model/Category";
 import {CategoryService} from "../../services/category.service";
 import {DetailDialogComponent} from "../detail-dialog/detail-dialog.component";
-import {MatDialog} from "@angular/material/dialog";
+import {MatLegacyDialog as MatDialog} from "@angular/material/legacy-dialog";
 
 interface totals {
   real_time: number,
