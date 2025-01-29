@@ -1,4 +1,4 @@
-# Portefolio [![Build and Push Docker Image](https://github.com/craftbrak/Portfolio/actions/workflows/build.yml/badge.svg)](https://github.com/craftbrak/Portfolio/actions/workflows/build.yml)
+# Portefolio   [![Build and Push Docker Image](https://github.com/craftbrak/Portfolio/actions/workflows/build.yml/badge.svg)](https://github.com/craftbrak/Portfolio/actions/workflows/build.yml)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
