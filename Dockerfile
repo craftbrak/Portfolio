@@ -14,7 +14,7 @@ RUN npm ci
 COPY . .
 
 # Build the Angular app
-RUN npm run build -- --outputPath=dist
+RUN npm run build
 
 # Use NGINX official image for the final stage
 FROM nginx:1.19
