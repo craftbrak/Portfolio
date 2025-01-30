@@ -24,7 +24,7 @@ jobs:
 
       # 4) Build test (validates the Angular project builds successfully)
       - name: Build Angular app
-        run: ng build
+        run: npm run build --if-present
 
       # 5) Set an environment variable with current date
       - name: Set DATE environment variable
