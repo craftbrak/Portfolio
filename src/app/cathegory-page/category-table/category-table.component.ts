@@ -13,9 +13,10 @@ interface Totals {
 }
 
 @Component({
-  selector: 'app-category-table',
-  templateUrl: './category-table.component.html',
-  styleUrls: ['./category-table.component.scss']
+    selector: 'app-category-table',
+    templateUrl: './category-table.component.html',
+    styleUrls: ['./category-table.component.scss'],
+    standalone: false
 })
 export class CategoryTableComponent implements OnInit {
   category_id: string = '';

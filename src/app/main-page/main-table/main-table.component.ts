@@ -8,9 +8,10 @@ interface totals {
   value_time: number,
 }
 @Component({
-  selector: 'app-main-table',
-  templateUrl: './main-table.component.html',
-  styleUrls: ['./main-table.component.scss']
+    selector: 'app-main-table',
+    templateUrl: './main-table.component.html',
+    styleUrls: ['./main-table.component.scss'],
+    standalone: false
 })
 export class MainTableComponent implements OnInit {
   categories: Category[] = []

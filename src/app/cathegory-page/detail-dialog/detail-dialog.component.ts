@@ -12,9 +12,10 @@ import {
 import { Line } from '../../model/Line';
 
 @Component({
-  selector: 'app-detail-dialog',
-  templateUrl: './detail-dialog.component.html',
-  styleUrls: ['./detail-dialog.component.scss']
+    selector: 'app-detail-dialog',
+    templateUrl: './detail-dialog.component.html',
+    styleUrls: ['./detail-dialog.component.scss'],
+    standalone: false
 })
 export class DetailDialogComponent implements OnInit {
 
