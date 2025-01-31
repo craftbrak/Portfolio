@@ -1,14 +1,77 @@
+/* refactored-component.component.scss */
+/* Basic "hero" section styling */
+.hero-section {
+  text-align: center;
+  padding: 2rem;
+}
+.profile-image {
+  border-radius: 50%;
+  width: 25%;
+  max-width: 300px; /* Optional max to ensure it's not too huge on big screens */
+  margin-bottom: 1rem;
+}
+
+/* Info section */
+.info-section {
+  text-align: center;
+  padding: 2rem;
+  h2 {
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  .button-group {
+    /* Use Flexbox to align buttons horizontally */
+    display: flex;
+    gap: 1rem; /* spacing between buttons */
+
+    /* Center them horizontally */
+    justify-content: center;
+
+    /* If you want them also centered vertically in a container:
+
+    */
+    align-items: center;
+    /* If you have many buttons and want them to wrap on small screens:*/
+
+    flex-wrap: wrap;
+  }
+}
+
+/* Skills section / "logos" */
+.skills-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Entire row contents are centered */
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo-grid img {
+  /* e.g., fix size or use auto */
+  max-width: 5rem;
+  height: 5rem;
+}
 
 
-.language-logo{
-  max-width: 55%;
-  height: 55%;
-}
-.jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  border-radius: .3rem;
-}
-section{
-  margin-bottom: 3vw;
-}
+//.language-logo{
+//  max-width: 55%;
+//  height: 55%;
+//}
+//.jumbotron {
+//  padding: 2rem 1rem;
+//  margin-bottom: 2rem;
+//  border-radius: .3rem;
+//}
+//section{
+//  margin-bottom: 3vw;
+//}

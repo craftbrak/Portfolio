@@ -1,30 +1,6 @@
 {
   "lines": [
     {
-      "title": "Concevez votre site web avec PHP et MySQL",
-      "category_id":"5",
-      "real_time": 8,
-      "details": ["une formation en ligne sur le php"],
-      "proofs": ["openclassroom.png" , "php-mysql.png"],
-      "debut_date": "26/09/2018"
-    },
-    {
-      "title": "Apprenez à créer votre site web avec HTML5 et CSS3",
-      "category_id":"5",
-      "real_time": 20,
-      "details": ["formation en html css faite avant d’entré a l’ephec"],
-      "proofs": ["openclassroom.png" , "html.png"],
-      "debut_date": "26/09/2018"
-    },
-    {
-      "title": "Écrivez du JavaScript pour le web",
-      "category_id":"5",
-      "real_time": 12,
-      "details": ["formation en javascript css faite avant d’entré a l’ephec"],
-      "proofs": ["openclassroom.png" , "js.png"],
-      "debut_date": "30/03/2019"
-    },
-    {
       "title": "Hébergement d’un bot discord + CD pipeline",
       "category_id":"8",
       "real_time": 4,
@@ -39,22 +15,6 @@
       "details": ["Apres avoir reçu un Raspberry pi B3+ j’ai décidé d’installer Pyhole pour drastiquement diminuer la quantité de publicités sur mon réseau local"],
       "proofs": ["pihole.png" , "Louis_maudit_2.png"],
       "debut_date": "16/01/2019"
-    },
-    {
-      "title": "Formation Latex",
-      "category_id":"4",
-      "real_time": 2,
-      "details": ["Formation organisée par Louvain-Li-nux sur latex qui est un outil de traitement de texte. ", "il n’y a pas d’entrée et donc pas vraiment de preuve de participation ."],
-      "proofs": [],
-      "debut_date": "24/02/2022"
-    },
-    {
-      "title": "Empreinte écologique de la 5G",
-      "category_id":"4",
-      "real_time": 2,
-      "details": ["Une conférence qui parle de ce qu’est la 5G et quel impact elle aura sur l’écologie. organisée par CapTech"],
-      "proofs": ["5G.png"],
-      "debut_date": "25/05/2018"
     },
     {
       "title": "Contruction Imprimate 3D RepRap",
@@ -73,13 +33,6 @@
       "debut_date": "12/12/2019"
     },
     {
-      "title": "Créez des visuels avec Illustrator",
-      "category_id":"10",
-      "real_time": 10,
-      "details": ["formation sur Adobe Illustrator pour appendre à créer des visuels en vectoriel"],
-      "proofs": ["illustrator.png" , "openclassroom.png"],
-      "debut_date": "04/02/2019"
-    },{
       "title": "Création des different logo de mon pull rhéto",
       "category_id":"10",
       "real_time": 40,
@@ -98,39 +51,6 @@
       "debut_date": "07/02/2019"
     },
     {
-      "title": "Créez une application Java avec Spring Boot",
-      "category_id":"1",
-      "real_time": 8,
-      "details": ["formation Spring en Java"],
-      "proofs": ["java.png" , "openclassroom2.png"],
-      "debut_date": "07/07/2021"
-    },
-    {
-      "title": "Initiez-vous au Kotlin",
-      "category_id":"1",
-      "real_time": 12,
-      "details": ["formation en Kotlin"],
-      "proofs": ["kotlin.png" , "openclassroom2.png"],
-      "debut_date": "23/09/2021"
-    },
-    {
-      "title": "Des applications ultra-rapides avec Node.js ",
-      "category_id":"3",
-      "real_time": 10,
-      "details": ["formation en node js proposée par openclassroom"],
-      "proofs": ["node.png" , "openclassroom.png"],
-      "debut_date": "09/04/2020"
-    },
-    {
-      "title": "Support technique, mise en place des bureaux et montage d'ordinateurs pour DWCCL ",
-      "category_id":"2",
-      "real_time": 20,
-      "details": ["Support technique des infrastructures réseau de l'entreprise (les différents sites web, les e-mails et le cloud privé)",
-        "Montage des différents bureaux du personnel de l'entreprise DWCCL.", "Je suis aussi chargé de maintenir à jour les différents postes de travail de l'entreprise en terme logiciel et hardware.", "Je fait tout cela bénévolement depuis la création de l'entreprise."],
-      "proofs": ["dwccl.png"],
-      "debut_date": "05/05/2022"
-    },
-    {
       "title": "Mise en place et sécurisation de réseau et des services réseaux de DWCCL ",
       "category_id":"7",
       "real_time": 15,
@@ -145,30 +65,6 @@
       "details": ["création d'un site statique pour DWCCL "],
       "proofs": ["dwccl.png"],
       "debut_date": "05/05/2022"
-    },
-    {
-      "title": "cours de natation pour LA BESACE",
-      "category_id":"9",
-      "real_time": 96,
-      "details": ["J'ai donné des cours de natation à des enfants pour le compte de LA BESACE"],
-      "proofs": [],
-      "debut_date": "05/09/2018"
-    },
-    {
-      "title": "cours de natation à mon compte",
-      "category_id":"9",
-      "real_time": 200,
-      "details": ["Je donne actuellement des cours de natation pour enfants à mon compte"],
-      "proofs": [],
-      "debut_date": "02/09/2020"
-    },
-    {
-      "title": "développement d'un site web avec Spring pour Ghoz-software",
-      "category_id":"3",
-      "real_time": 200,
-      "details": ["travail étudiant chez Ghoz-software.", "", "preuve voir cv"],
-      "proofs": [],
-      "debut_date": "02/05/2021"
     }
   ]
 }

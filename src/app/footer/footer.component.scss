@@ -1,43 +1,16 @@
-section{
-  padding-bottom: 1vw;
-}
-.accent{
-  color: #65CF7F;
-  font-size: large;
-  padding: 0.2vw;
-}
-.warn{
-  color: #B8EA67;
-  font-size: large;
-  padding: 0.2vw;
-}
-.center{
-  text-align: center;
-}
-.clickable:hover{
-  cursor: pointer;
-  background-color: #454444;
-}
-.clickable:active
-{ background-color: #333333; }
-
-
-.primary-bg{
-  background-color: #2F4858;
-}
-.secondary-bg{
-  background-color: #13697B;
-}
-.thirdary-bg{
-  background-color: #008D8F;
-}
-.fourthiary-bg{
-  background-color: #00AF90;
-}
-.accent-text{
-  color: #65CF7F;
-}
-.warning-text{
-  color: #B8EA67;
+/* The footer container */
+.app-footer {
+  padding: 2rem 1rem;       /* some vertical & horizontal padding */
+  display: flex;            /* use flex layout to center or space items */
+  justify-content: center;  /* horizontally center its content */
 }
 
+/* The inner content wrapper */
+.footer-content {
+  text-align: center;       /* center text inside */
+}
+
+/* If you want some margin between elements (e.g., button and text): */
+.footer-content > * {
+  margin: 0.5rem 0;
+}

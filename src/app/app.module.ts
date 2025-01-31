@@ -17,6 +17,8 @@ import { MAT_DIALOG_DEFAULT_OPTIONS, MatDialogModule } from "@angular/material/d
 import { FooterComponent } from './footer/footer.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import {MatToolbar, MatToolbarModule} from "@angular/material/toolbar";
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { MatSortModule } from '@angular/material/sort';
     MatDialogModule,
     MatPaginatorModule,
     MatSortModule,
+    MatToolbarModule,
+    RouterModule
   ],
   providers: [
     {

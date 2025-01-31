@@ -1,1 +1,21 @@
+.main-nav {
+  /* Make the nav fixed at the top, with a small top offset if desired */
+  position: fixed;
+  top: 1rem;   /* replaces mt-1 from Bootstrap */
+  left: 0;
+  width: 100%; /* so it spans full width of the page */
+  z-index: 100; /* ensures nav stays on top of other content if needed */
 
+  /* Optional background or theming color */
+  background: none; /* or your Material theming color if you'd like */
+  text-align: center; /* center the nav links horizontally */
+}
+
+.nav-content {
+  display: inline-block; /* shrinks wrapper to fit the links */
+}
+
+a[mat-button] {
+  margin: 0 1rem;       /* add spacing between links */
+  text-transform: none; /* remove uppercase if you prefer normal text */
+}

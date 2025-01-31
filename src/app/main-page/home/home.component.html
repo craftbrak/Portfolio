@@ -1,93 +1,69 @@
-<section class="container-fluid jumbotron mb-5 mt-5 primary-bg">
-  <div class="container text-center align-items-center align-content-center" >
-    <header>
-
-    <img src="assets/my_dum_head.jpeg" alt="Louis De wilde" class="w-25 p-3  align-content-center" style="border-radius: 50%;">
+<!-- "Hero" section -->
+<section class="primary-bg hero-section">
+  <header>
+    <img
+      src="assets/my_dum_head.jpeg"
+      alt="Louis De Wilde"
+      class="profile-image"
+    />
     <h1>Louis De Wilde</h1>
     <h4>Master en ingénierie logicielle</h4>
   </header>
+</section>
+
+<!-- "Qui suis-je ?" section -->
+<section id="Cv" class="thirdary-bg info-section">
+  <h2>Qui suis-je ?</h2>
+  <p>Je suis étudiant en Master informatique à l'UCLouvain.</p>
+  <p>
+    Passionné par le monde des nouvelles technologies.<br />
+    Je suis particulièrement attiré par la XR, l'impression 3D,
+    le jeu vidéo et l'OpenSource.
+  </p>
+  <div class="button-group">
+
+    <a  href="mailto:contact@louisdewilde.be">
+      <button mat-raised-button color="pimary">
+        <mat-icon>mail </mat-icon>
+        contact&#64;louisdewilde.be
+      </button>
+    </a>
+    <a
+    target="_blank"
+    href="https://github.com/craftbrak/My_Cv/blob/main/out_FR/resume-fr.pdf?raw=true"
+  >
+    <button mat-raised-button color="accent">
+      Mon CV
+    </button>
+  </a>
+    <a  href="mailto:contact@louisdewilde.be">
+      <button mat-raised-button color="primary">
+        My github
+      </button>
+    </a>
   </div>
 
 </section>
-<section id="Cv" class="container-fluid mb-5 jumbotron thirdary-bg">
-  <div class="container text-center align-items-center align-content-center">
-    <h2 class="fs-1">Qui suis-je ? </h2>
-    <p class="fs-3">Je suis étudiant en Master informatique à l'UCLouvain.</p>
-    <p class="fs-5">Passionné par le monde des nouvelles technologies.<br>
-      Je suis particulièrement attiré par le monde de la XR, de l'impression 3D, du jeu vidéo et de l'OpenSource.</p>
-    <!-- "https://ephec-my.sharepoint.com/:b:/g/personal/he201769_students_ephec_be/EdpRh6rh1tRKt5BU_bsUBoUBlXXTw6BXIclV3mZUTZNQdw?e=VoHVvZ"-->
 
-      <a target=”_blank” href="https://github.com/craftbrak/My_Cv/blob/main/out_FR/resume-fr.pdf?raw=true">
-        <button mat-raised-button color="primary">  mon CV</button>
-      </a>
-
-  </div>
-</section>
-
-<!--<section id="portfolio" class="mb-5 jumbotron secondary-bg">-->
-<!--  <app-main-table></app-main-table>-->
-<!--</section>-->
-
-
-<!--TODO: Input my projets -->
-<!--Projet info: Progra : meterBuddy ,CPT admin: VaultWarden, Pihole, Proxmox , NAS , VPN -->
-<!--projet 3D: Support ecran voiture , Support mirroir-->
-
-
-<section id="languages" class="container-fluid jumbotron accent-text">
-  <div class="container">
-    <div class="row">
-      <div class="text-center text-capitalize mb-5">
-        <h1 class="accent-text">Mes compétences Informatiques</h1>
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Angular_full_color_logo.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/nodejs-seeklogo.com.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Typescript_logo_2020.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/PHP-logo.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo " src="assets/c-seeklogo.com.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Kotlin_Icon.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Java_Logo.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Spring_Framework_Logo_2018.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Arduino_Logo.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Linux_Logo_in_Linux_Libertine_Font.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/docker.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Fusion_360_Logo.png" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Python-logo.svg" alt="">
-      </div>
-      <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/rust.svg" alt="">
-      </div>
-        <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/Git_icon.svg" alt="">
-      </div>
-    <div class="col-3">
-        <img class="rounded mx-auto d-block language-logo" src="assets/openwrt.svg" alt="">
-      </div>
-    </div>
+<!-- Skill logos -->
+<section id="languages" class="accent-text skills-section">
+  <h2>Mes compétences Informatiques</h2>
+  <div class="logo-grid">
+    <img src="assets/Angular_full_color_logo.svg" alt="Angular" />
+    <img src="assets/nodejs-seeklogo.com.svg" alt="Node.js" />
+    <img src="assets/Typescript_logo_2020.svg" alt="TypeScript" />
+    <img src="assets/PHP-logo.svg" alt="PHP" />
+    <img src="assets/c-seeklogo.com.svg" alt="C" />
+    <img src="assets/Kotlin_Icon.svg" alt="Kotlin" />
+    <img src="assets/Java_Logo.svg" alt="Java" />
+    <img src="assets/Spring_Framework_Logo_2018.svg" alt="Spring" />
+    <img src="assets/Arduino_Logo.svg" alt="Arduino" />
+    <img src="assets/Linux_Logo_in_Linux_Libertine_Font.svg" alt="Linux" />
+    <img src="assets/docker.svg" alt="Docker" />
+    <img src="assets/Fusion_360_Logo.png" alt="Fusion 360" />
+    <img src="assets/Python-logo.svg" alt="Python" />
+    <img src="assets/rust.svg" alt="Rust" />
+    <img src="assets/Git_icon.svg" alt="Git" />
+    <img src="assets/openwrt.svg" alt="OpenWRT" />
   </div>
 </section>
