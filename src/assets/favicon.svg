@@ -1,0 +1,25 @@
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Forme en arrière-plan (par exemple un cercle) -->
+  <circle
+    cx="32"
+    cy="32"
+    r="30"
+    fill="#2F4858"
+  />
+
+  <!-- Texte LD au centre -->
+  <text
+    x="50%"
+    y="50%"
+    font-size="24"
+    fill="#fff"
+    text-anchor="middle"
+    alignment-baseline="central"
+    font-family="sans-serif"
+  >LDW</text>
+</svg>
