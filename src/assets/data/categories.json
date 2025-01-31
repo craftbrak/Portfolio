@@ -6,39 +6,14 @@
       "category_title": "Développement applicatif"
     },
     {
-      "category_name": "maintenance&support_technique",
-      "id": "2",
-      "category_title": "Maintenance & support Technique"
-    },
-    {
-      "category_name": "development_web",
-      "id": "3",
-      "category_title": "Développement web"
-    },
-    {
       "category_name": "impression_3d",
       "id": "6",
       "category_title": "Impression 3D"
     },
     {
-      "category_name": "infra_reseau",
-      "id": "7",
-      "category_title": "Infrastructure réseau"
-    },
-    {
       "category_name": "service_reseau",
       "id": "8",
       "category_title": "Service réseau"
-    },
-    {
-      "category_name": "soft_skills",
-      "id": "9",
-      "category_title": "Soft skills"
-    },
-    {
-      "category_name": "2d-design",
-      "id": "10",
-      "category_title": "Design 2D"
     }
   ]
 }

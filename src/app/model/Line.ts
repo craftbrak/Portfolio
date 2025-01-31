@@ -8,7 +8,6 @@ export class Line {
               public real_time: number = 0,
               public valued_time:number=0,
               public debutDate: string = Date.now().toString()
-
   ) {
   }
 }

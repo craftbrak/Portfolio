@@ -17,20 +17,22 @@ import { MAT_DIALOG_DEFAULT_OPTIONS, MatDialogModule } from "@angular/material/d
 import { FooterComponent } from './footer/footer.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
-import {MatToolbar, MatToolbarModule} from "@angular/material/toolbar";
+import { MatToolbarModule} from "@angular/material/toolbar";
 import {RouterModule} from "@angular/router";
+import {MatExpansionModule} from "@angular/material/expansion";
+import {CategoryListComponent} from "./category-list/category-list.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MainTableComponent,
     TypeSafeMatCellDef,
     CategoryPageComponent,
     CategoryTableComponent,
     NavBarComponent,
     DetailDialogComponent,
     FooterComponent,
+    MainTableComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,9 @@ import {RouterModule} from "@angular/router";
     MatPaginatorModule,
     MatSortModule,
     MatToolbarModule,
-    RouterModule
+    RouterModule,
+    MatExpansionModule,
+    CategoryListComponent,
   ],
   providers: [
     {

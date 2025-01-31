@@ -1,0 +1,12 @@
+<section class="expansion-section">
+  <mat-expansion-panel *ngFor="let cat of categories">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{cat.category_title }}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <ul>
+      <li *ngFor="let proj of catService.getCategoryProjects(cat.id)">{{proj.projectName}}</li>
+    </ul>
+  </mat-expansion-panel>
+</section>

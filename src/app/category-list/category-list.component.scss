@@ -1,0 +1,19 @@
+mat-expension-panel{
+ border-radius: 4px;
+ }
+.expansion-section {
+  /* Center everything horizontally with a max width */
+  max-width: 1200px;  /* or your preferred max width */
+  margin: 0 auto;     /* auto-left/right margin to center */
+  padding: 2rem 1rem; /* top-bottom, left-right padding */
+
+  /*
+    If you'd like to space the panels automatically,
+    you can let them be block-level elements with
+    margin, or use a flex/gap approach:
+  */
+
+  display: flex;         /* turn it into a flex container */
+  flex-direction: column;/* stack them vertically */
+  gap: 1.5rem;           /* space between panels */
+}
