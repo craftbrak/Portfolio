@@ -1,6 +1,6 @@
 @use 'sass:map';
 @use '@angular/material' as mat;
-@use 'src/custom-theme' as theme;
+@use 'src/custom-theme' as ctheme;
 // TODO(v15): As of v15 mat.legacy-core no longer includes default typography styles.
 //  The following line adds:
 //    1. Default typography styles for all components
@@ -11,7 +11,7 @@
 //    `@include mat.legacy-typography-hierarchy(mat.define-legacy-typography-config());`
 @include mat.all-component-typographies();
 @include mat.core();
-$color-config:    mat.m2-get-color-config(theme.$portefolio-theme);
+$color-config: mat.m2-get-color-config(ctheme.$portfolio-dark-theme);
 $primary-palette: map.get($color-config, 'primary');
 $accent-palette:  map.get($color-config, 'accent');
 $warn-palette:    map.get($color-config, 'warn');

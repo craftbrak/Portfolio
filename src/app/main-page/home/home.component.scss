@@ -1,21 +1,4 @@
-@use 'sass:map';
-@use '@angular/material' as mat;
-@use 'src/custom-theme' as theme;
-// TODO(v15): As of v15 mat.legacy-core no longer includes default typography styles.
-//  The following line adds:
-//    1. Default typography styles for all components
-//    2. Styles for typography hierarchy classes (e.g. .mat-headline-1)
-//  If you specify typography styles for the components you use elsewhere, you should delete this line.
-//  If you don't need the default component typographies but still want the hierarchy styles,
-//  you can delete this line and instead use:
-//    `@include mat.legacy-typography-hierarchy(mat.define-legacy-typography-config());`
-@include mat.all-component-typographies();
-@include mat.core();
-$color-config:    mat.m2-get-color-config(theme.$portefolio-theme);
-$primary-palette: map.get($color-config, 'primary');
-$accent-palette:  map.get($color-config, 'accent');
-$warn-palette:    map.get($color-config, 'warn');
-$is-dark-theme:   map.get($color-config, 'is-dark');
+
 
 .language-logo{
   max-width: 55%;
@@ -28,22 +11,4 @@ $is-dark-theme:   map.get($color-config, 'is-dark');
 }
 section{
   margin-bottom: 3vw;
-}
-.primary-bg{
-  background-color: #2F4858;
-}
-.secondary-bg{
-  background-color: #13697B;
-}
-.thirdary-bg{
-  background-color: #008D8F;
-}
-.fourthiary-bg{
-  background-color: #00AF90;
-}
-.accent-text{
-  color: #65CF7F;
-}
-.warning-text{
-  color: #B8EA67;
 }

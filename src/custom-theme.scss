@@ -1,47 +1,44 @@
-
-// Custom Theming for Angular Material
-// For more information: https://material.angular.io/guide/theming
 @use '@angular/material' as mat;
-// Plus imports for other components in your app.
 
-// Include the common styles for Angular Material. We include this here so that you only
-// have to load a single css file for Angular Material in your app.
-// Be sure that you only ever include this mixin once!
-// TODO(v15): As of v15 mat.legacy-core no longer includes default typography styles.
-//  The following line adds:
-//    1. Default typography styles for all components
-//    2. Styles for typography hierarchy classes (e.g. .mat-headline-1)
-//  If you specify typography styles for the components you use elsewhere, you should delete this line.
-//  If you don't need the default component typographies but still want the hierarchy styles,
-//  you can delete this line and instead use:
-//    `@include mat.legacy-typography-hierarchy(mat.define-legacy-typography-config());`
-
+// 1) Include Angular Material core styles
 @include mat.core();
 
-// Define the palettes for your theme using the Material Design palettes available in palette.scss
-// (imported above). For each palette, you can optionally specify a default, lighter, and darker
-// hue. Available color palettes: https://material.io/design/color/
-$portefolio-primary: mat.m2-define-palette(mat.$m2-indigo-palette);
-$portefolio-accent: mat.m2-define-palette(mat.$m2-pink-palette, A200, A100, A400);
+// 2) Define your palettes
+$portfolio-primary: mat.m2-define-palette(mat.$m2-cyan-palette);
+$portfolio-accent: mat.m2-define-palette(mat.$m2-green-palette);
+$portfolio-error: mat.m2-define-palette(mat.$m2-red-palette);
 
-// The warn palette is optional (defaults to red).
-$portefolio-warn: mat.m2-define-palette(mat.$m2-red-palette);
-
-// Create the theme object. A theme consists of configurations for individual
-// theming systems such as "color" or "typography".
-$portefolio-theme: mat.m2-define-dark-theme((
+// 3) Create a dark theme object
+$portfolio-dark-theme: mat.m2-define-light-theme((
   color: (
-    primary: $portefolio-primary,
-    accent: $portefolio-accent,
-    warn: $portefolio-warn,
+    primary: $portfolio-primary,
+    accent:  $portfolio-accent,  // must define "accent" if theming complains
+    error:   $portfolio-error,
   )
 ));
 
-// Include theme styles for core and each component used in your app.
-// Alternatively, you can import and @include the theme mixins for each component
-// that you are using.
-@include mat.all-component-themes($portefolio-theme);
+// 4) (Optional) Apply the theme to all Material components
+ @include mat.all-component-themes($portfolio-dark-theme);
 
+// 5) Global body/html styles
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+//
+//// 6) Apply the dark background + text color from the theme
+body {
+  // A) Extract the color sub-map from your theme
+  $color-submap: map-get($portfolio-dark-theme, color);
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+  // B) Get the top-level M2 color config
+  $color-config: mat.m2-get-color-config($color-submap);
+
+  // C) That config includes a "background" submap with multiple keys
+  $bg-submap: map-get($color-config, background);
+
+  // D) Extract the actual background color and on-background color
+  background-color: map-get($bg-submap, background);
+  color: map-get($bg-submap, onbackground);
+}
