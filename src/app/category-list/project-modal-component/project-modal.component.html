@@ -1,0 +1,18 @@
+<h2>{{ data.project.projectName }}</h2>
+<p>{{ data.project.projectPresentation }}</p>
+
+<div class="image-list">
+  <img *ngFor="let image of data.project.images" [src]="image" alt="Project Image" />
+</div>
+
+<div class="links" *ngIf="data.project.links.length > 0 ">
+  Learn more about this projet here:
+  <ul>
+    <ng-container *ngFor="let link of data.project.links">
+      <li>
+        <a [href]="link" target="_blank">{{ link }}</a>
+      </li>
+    </ng-container>
+  </ul>
+
+</div>

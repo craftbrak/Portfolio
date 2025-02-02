@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {BrowserModule, DomSanitizer} from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -7,7 +7,7 @@ import { HomeComponent } from "./main-page/home/home.component";
 import { MainTableComponent } from "./main-page/main-table/main-table.component";
 import { MatTableModule } from "@angular/material/table";
 import { MatButtonModule } from "@angular/material/button";
-import { MatIconModule } from "@angular/material/icon";
+import {MatIconModule, MatIconRegistry} from "@angular/material/icon";
 import { TypeSafeMatCellDef } from './directive/type-safe-mat-cell-def.directive';
 import { CategoryPageComponent } from './cathegory-page/category-page.component';
 import { CategoryTableComponent } from "./cathegory-page/category-table/category-table.component";
@@ -57,4 +57,11 @@ import {CategoryListComponent} from "./category-list/category-list.component";
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer) {
+    matIconRegistry.addSvgIcon(
+      'printables',
+      domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/printables.svg')
+    );
+  }
+}

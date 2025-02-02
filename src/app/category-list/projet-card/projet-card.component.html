@@ -1,0 +1,20 @@
+<div class="card" (click)="openModal()" >
+  <h5>{{project.projectName}}</h5>
+  <p class="description">{{project.projectPresentation}}</p>
+
+  <div class="button-cluster" >
+    <ng-container *ngFor="let link of project.links">
+      <a *ngIf="isGithubLink(link)" href="{{link}}" target="_blank">
+        <button mat-icon-button class="icon-text-btn" color="primary">
+          <img src="assets/icon/github.png" alt="github Icon" />
+        </button>
+      </a>
+      <a *ngIf="isPrintablesLink(link)" href="{{link}}" target="_blank">
+        <button mat-icon-button color="accent" class="icon-text-btn">
+          <img ngSrc="assets/icon/printables.webp" alt="Printables" height="512" width="512">
+        </button>
+      </a>
+      <!-- Add more conditions for other specific links as needed -->
+    </ng-container>
+  </div>
+</div>

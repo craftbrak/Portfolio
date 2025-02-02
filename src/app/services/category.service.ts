@@ -20,7 +20,7 @@ export class CategoryService {
     })
     projectJson.projects.forEach(p=>{
       const cat2 = this.getCategory(p.category_id)
-      if (cat2) this.projets.push(new Project(cat2,p.projectName,p.projectPresentation,p.links,p.images))
+      if (cat2) this.projets.push(new Project(cat2,p.projectName,p.projectPresentation,p.images,p.links))
     })
   }
   getCategories():Category[]{

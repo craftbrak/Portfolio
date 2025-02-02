@@ -1,0 +1,38 @@
+.card {
+  width: 100%; /* Make the card responsive */
+  max-width: 300px; /* Fixed max width */
+  height: 200px; /* Fixed height */
+  overflow: hidden; /* Hide overflow content */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Grow the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.description {
+  max-height: 100px; /* Limit description height */
+  transition: max-height 0.3s ease;
+}
+
+.icon-text-btn {
+  /* Make the button’s *contents* a flex container */
+  display: inline-flex;
+  align-items: center;   /* vertically center icon & text */
+  justify-content: center; /* horizontally center (if needed) */
+
+  /* Spacing between icon & text */
+  gap: 1rem;
+
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}

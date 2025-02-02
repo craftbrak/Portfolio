@@ -27,6 +27,12 @@
       "images": ["kokot.png"],
       "links": ["https://github.com/craftbrak/kotkotKonnect","https://www.notion.so/Rapport-TFE-Kotkotkonnect-a0e0d5e561414635bc75230756be7c69"],
       "category_id": "1"
+    },{
+      "projectName": "This portfolio",
+      "projectPresentation": "The site you are using right now",
+      "images": ["portfolio.png"],
+      "links": [""],
+      "category_id": "1"
     },
     {
       "projectName": "Password manager with Vaultwarden",

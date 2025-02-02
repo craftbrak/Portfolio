@@ -5,8 +5,8 @@
         {{cat.category_title }}
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <ul>
-      <li *ngFor="let proj of catService.getCategoryProjects(cat.id)">{{proj.projectName}}</li>
-    </ul>
+    <div class="card-section">
+      <app-projet-card *ngFor="let proj of catService.getCategoryProjects(cat.id)" [project]="proj"></app-projet-card>
+    </div>
   </mat-expansion-panel>
 </section>

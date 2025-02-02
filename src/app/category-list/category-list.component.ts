@@ -3,6 +3,9 @@ import {MatExpansionModule, MatExpansionPanel, MatExpansionPanelTitle} from "@an
 import {Category} from "../model/Category";
 import {CategoryService} from "../services/category.service";
 import {NgForOf} from "@angular/common";
+import {MatIcon} from "@angular/material/icon";
+import {MatIconButton} from "@angular/material/button";
+import {ProjetCardComponent} from "./projet-card/projet-card.component";
 
 @Component({
   selector: 'app-category-list',
@@ -10,7 +13,8 @@ import {NgForOf} from "@angular/common";
     MatExpansionPanel,
     MatExpansionPanelTitle,
     MatExpansionModule,
-    NgForOf
+    NgForOf,
+    ProjetCardComponent
   ],
   templateUrl: './category-list.component.html',
   styleUrl: './category-list.component.scss'
