@@ -3,62 +3,62 @@
     {
       "projectName": "Clever Party Thrower",
       "projectPresentation": "Clever Party Thrower is a opens source pwa that help freindgroups organise and manage gathering projects and finances.",
-      "images": ["cpt/mainpage.png"],
+      "images": ["assets/img/cpt/cpt.png","assets/img/cpt/cpt2.png","assets/img/cpt/cpt3.png"],
       "links": ["https://github.com/craftbrak/Clever-Party-Thrower"],
       "category_id": "1"
     },
     {
       "projectName": "Meter Buddy",
-      "projectPresentation": "open source android app that lets users track there electricity ,water or any other meter.",
-      "images": ["meterbudy/mainpage.png"],
+      "projectPresentation": "Open source android app that lets users track there electricity ,water or any other meter.",
+      "images": [],
       "links": ["https://github.com/craftbrak/LEPL1509-MeterBuddy"],
       "category_id": "1"
     },
     {
       "projectName": "Infirmier Jodoigne",
-      "projectPresentation": "infirmiers-jodoigne.be is a nurse group shocase web sit",
-      "images": ["infijod.png"],
+      "projectPresentation": "infirmiers-jodoigne.be is a nurse group showcase web site",
+      "images": ["assets/img/infijod.png"],
       "links": ["https://www.infirmiers-jodoigne.be"],
       "category_id": "1"
     },
     {
       "projectName": "KotKotConnect",
       "projectPresentation": "A full stack foss project that let's user smarten up there chicken coop by adding modules. The project was paused passed the design phase due to budjetary constrains at the time.",
-      "images": ["kokot.png"],
+      "images": ["assets/img/kotkotkot.png"],
       "links": ["https://github.com/craftbrak/kotkotKonnect","https://www.notion.so/Rapport-TFE-Kotkotkonnect-a0e0d5e561414635bc75230756be7c69"],
       "category_id": "1"
     },{
       "projectName": "This portfolio",
       "projectPresentation": "The site you are using right now",
-      "images": ["portfolio.png"],
-      "links": [""],
+      "images": [],
+      "links": ["https://louisdewilde.be", "https://github.com/craftbrak/Portfolio"],
       "category_id": "1"
     },
     {
       "projectName": "Password manager with Vaultwarden",
       "projectPresentation": "VaultWarden is a simple to host fork of Bitwarden",
-      "images": ["vaultwarden.png"],
+      "images": ["assets/img/vaultwarden.png"],
       "links": ["bitwarden.louisdewilde.be"],
       "category_id": "8"
     },
     {
       "projectName": "NAS setup with TrueNas",
       "projectPresentation": "a 4+ TB nas setup with backups and shares",
-      "images": ["truenas.png"],
+      "images": ["assets/img/truenas.png"],
       "links": [],
       "category_id": "8"
     },
     {
       "projectName": "Site to site VPN ",
       "projectPresentation": "VPN setup to offer secure access from user of my local network to services hosted at my parents.",
-      "images": ["wireguard.png"],
+      "images": [],
       "links": ["wireguar.com"],
       "category_id": "8"
     },
     {
       "projectName": "Android auto screen fixation for a citroen ds3",
-      "projectPresentation": "a fixation with quick release that lets user mount a android auto aftemarket screen to there dashboard",
-      "images": ["screenMount.png"],
+      "projectPresentation": "A fixation with quick release that lets user mount a android auto afte-market screen to their dashboard",
+      "images": ["assets/img/screenmount/screenmount1.jpeg","assets/img/screenmount/screenmount3.jpeg","assets/img/screenmount/screenmount4.jpeg","assets/img/screenmount/screenmount5.jpeg"],
       "links": [],
       "category_id": "6"
     },
@@ -72,21 +72,21 @@
     {
       "projectName": "Custom Key hanger",
       "projectPresentation": "a key ring that takes a small space and does not ratle",
-      "images": ["keys.png"],
+      "images": ["assets/img/key.jpeg"],
       "links": [],
       "category_id": "6"
     },
     {
       "projectName": "Name tags for art work",
       "projectPresentation": "Name tags for artworks in a local outdoor exposition",
-      "images": ["nameTags.png"],
-      "links": ["lavoiedupresent.be"],
+      "images": ["assets/img/nametags.jpeg"],
+      "links": ["https://lavoiedupresent.be"],
       "category_id": "6"
     },
     {
       "projectName": "galaxy watch charger support",
       "projectPresentation": "A support to mount galaxy watch chargers on computer monitors",
-      "images": ["watchCharger.png"],
+      "images": ["assets/img/watchCharger.webp"],
       "links": ["https://www.printables.com/model/989149-galaxy-watch-charger-monitor-mount"],
       "category_id": "6"
     }
