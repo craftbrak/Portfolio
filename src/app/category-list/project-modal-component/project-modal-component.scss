@@ -20,12 +20,14 @@ p {
 
 .image-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 1.5rem;
 
+
   img {
-    width: 100%;
+    flex: 1 1 calc(50% - 1rem); /* Adjust width for two columns with gap */
+    max-width: calc(50% - 1rem); /* Ensure max width for two columns */
     height: auto;
     object-fit: cover;
     border-radius: 4px;
