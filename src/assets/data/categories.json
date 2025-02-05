@@ -1,19 +1,19 @@
 {
   "categories": [
     {
-      "category_name": "development_applicatif",
+      "category_name": "Software Development",
       "id": "1",
-      "category_title": "Développement applicatif"
+      "category_title": "Software Development"
     },
     {
-      "category_name": "impression_3d",
+      "category_name": "3D Printing",
       "id": "6",
-      "category_title": "Impression 3D"
+      "category_title": "3D Printing"
     },
     {
-      "category_name": "service_reseau",
+      "category_name": "Networking",
       "id": "8",
-      "category_title": "Service réseau"
+      "category_title": "Networking"
     }
   ]
 }
