@@ -21,6 +21,8 @@ p {
 .image-list {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
 
